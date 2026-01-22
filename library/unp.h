@@ -13,7 +13,7 @@
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string>
+#include <string.h>
 #include <sys/socket.h> /* basic socket definitions */
 #include <sys/stat.h>   /* for S_xxx file mode constants */
 #include <sys/time.h>   /* timeval{} for select() */
