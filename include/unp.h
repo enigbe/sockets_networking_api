@@ -217,7 +217,11 @@ typedef void Sigfunc(int); /* for signal handlers */
 #define max(a, b) ((a) > (b) ? (a) : (b))
 
 #ifndef HAVE_ADDRINFO_STRUCT
-  #include "../library/addrinfo.h"
+  #include "../include/addrinfo.h"
+#endif
+
+#ifndef HAVE_ERROR_H
+  #include "error.h"
 #endif
 
 #ifndef HAVE_IF_NAMEINDEX_STRUCT
